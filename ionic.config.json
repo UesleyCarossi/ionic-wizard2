@@ -1,0 +1,7 @@
+{
+  "name": "myWifiApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

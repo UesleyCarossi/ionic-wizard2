@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+     List Wifi AP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-button color="primary" (click)="getNetworks()">Get Networks</ion-button>
+    {{info_txt}}
+    <ion-list>
+        <ion-item *ngFor="let data of results">
+            {{JSON.stringify(data)}}
+        </ion-item>
+      </ion-list>
+</ion-content>
